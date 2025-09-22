@@ -16,6 +16,7 @@ public class BoardDTO {
     private Long id; //아이디
     private String boardWriter; //작성자
     private String boardPass; //비밀번호
+    private String updatePass;//수정된 비밀번호
     private String boardTitle; //제목
     private String boardContents; //내용
     private int BoardHits; //조회수
